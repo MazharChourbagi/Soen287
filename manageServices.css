@@ -92,6 +92,7 @@ header {
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
+    
 }
 
 .add-service-button:hover {
