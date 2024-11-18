@@ -80,40 +80,42 @@ nav ul li a:hover {
 
 
 
-.quick-access {
+.services-overview {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+.service-stats {
     display: flex;
     justify-content: space-around;
+}
+
+.service-card {
+    background-color: #fff;
     padding: 20px;
-    margin-top: 20px;
-}
-
-.feature-card {
-    background-color: #cfd8e6;
-    padding: 30px;
-    text-align: center;
-    width: 20%;
+    width: 30%;
     border-radius: 8px;
-    transition: transform 0.3s ease, background-color 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.feature-card:hover {
+
+.service-card:hover {
     transform: scale(1.05);
-    background-color: #e0e0e0;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-.feature-card a {
-    text-decoration: none;
+.service-card h4 {
     font-size: 18px;
     color: #00293c;
-    font-family: 'Arial', sans-serif;
-    font-weight: bold;
 }
 
-
-
-
-
+.service-card p {
+    font-size: 22px;
+    color: #c89d2f;
+}
 
 
 .admin-stats {
