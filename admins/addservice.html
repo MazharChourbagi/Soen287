@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Service</title>
+    <link rel="stylesheet" href="addservice.css">
+</head>
+<body>
+    <!-- Back Button -->
+    <div class="top-bar">
+        <a href="manageServices.html" class="back-button">
+            <span class="icon">←</span> Back
+        </a>
+    </div>
+
+    <!-- Form Container -->
+    <div class="form-container">
+        <h2>Add New Service</h2>
+        <form id="add-service-form">
+            <div class="form-group">
+                <label for="description">Service Description</label>
+                <textarea id="description" name="description" placeholder="Enter service description" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="price">Price (in USD)</label>
+                <input type="number" id="price" name="price" placeholder="Enter service price" min="1" required>
+            </div>
+            <div class="form-group">
+                <label for="offeredBy">Offered By</label>
+                <input type="text" id="offeredBy" name="offeredBy" placeholder="Enter service provider's name" required>
+            </div>
+            <button type="submit">Add Service</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
